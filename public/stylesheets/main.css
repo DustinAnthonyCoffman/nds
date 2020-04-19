@@ -1,0 +1,142 @@
+body {
+    font-family: 'Metrophobic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: solid .3px rgb(139, 0, 0);
+}
+
+p {
+    font-size: 19px;
+    line-height: 2;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+.jumbotron h2 {
+    font-weight: 700;
+    color: rgb(168, 168, 168);
+}
+
+.jumbotron img {
+    width: 38%;
+}
+
+.nav {
+    background-color: rgb(46, 53, 60);
+    height: 55px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.dropdown-menu {
+    background-color: rgb(46, 53, 60);
+}   
+
+.nav-item {
+    padding-top: 8px;
+}
+.nav a {
+    color: white;
+}
+
+.dropdown-item {
+    line-height: 3;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.dropdown-item:hover {
+    text-decoration: none;
+    filter: brightness(200%);
+} 
+
+.nav-tabs .nav-link:hover {
+    background-color: rgb(46, 53, 60);
+    border: 1px solid rgb(46, 53, 60);
+}
+
+.nav .open>a:hover {
+    background-color: rgb(46, 53, 60);
+    border-color: rgb(46, 53, 60);
+    transition: 1s;
+}
+
+.nav li:hover a {
+    border: 1px solid rgba(46, 53, 60, 0);
+    background: none;
+}
+
+
+footer {
+    background-color: rgb(92, 99, 105);
+}
+footer h2 {
+    color: white;
+    font-size: 20px;
+}
+
+
+@media screen and (min-width: 768px){
+    .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+          display: block;
+      }
+      .dropdown-menu{
+          margin-top: 0;
+      }
+      .dropdown-toggle{
+          margin-bottom: 2px;
+      }
+      .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+          margin-bottom: 0;
+      }
+  }
+
+  @media (min-width: 992px) {
+    .animate {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }

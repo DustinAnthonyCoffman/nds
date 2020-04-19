@@ -1,0 +1,128 @@
+.quote {
+    background-color: rgb(139, 0, 0);
+    height: 170px;
+}
+.quote h2 {
+    display: inline-block;
+    margin-right: 70px;
+    padding-top: 45px;
+    color: white;
+}
+.quote button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+
+.quote a {
+    color: rgb(46, 53, 60);
+}
+
+.quote button:hover {
+    background-color: rgb(139, 0, 0);
+    border: white 1px solid;
+}
+.quote button:hover a {
+    color: white;
+}
+
+.quote a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.indexAbout {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.indexAbout h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+.indexAbout hr {
+    width: 4%;
+}
+
+.indexDesc {
+    color: rgb(168, 168, 168);
+}
+
+.services {
+    padding-top: 100px;
+}
+
+.services hr {
+    width: 4%;
+}
+
+.indexImages {
+    padding-top: 100px;
+}
+.indexImages hr {
+    width: 10%;
+}
+.indexImages p {
+    color: rgb(168, 168, 168);
+    font-size: 15px;
+}
+.indexImages div:nth-child(2){
+    position: relative;
+    padding: 0;
+}
+.indexImages div:nth-child(2) img {
+    width: 100%;
+}
+.indexImages div:nth-child(2) img:hover {
+    opacity: .5;
+}
+.indexImages div:nth-child(4){
+    position: relative;
+    padding: 0;
+}
+.indexImages div:nth-child(4) img {
+    width: 100%;
+}
+.indexImages div:nth-child(4) img:hover {
+    opacity: .5;
+}
+.indexImages div:nth-child(6){
+    position: relative;
+    padding: 0;
+}
+.indexImages div:nth-child(6) img {
+    width: 100%;
+}
+.indexImages div:nth-child(6) img:hover {
+    opacity: .5;
+}
+
+.architecture {
+    background-image: url('../images/bg-4.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 200px;
+    background-color: rgb(46, 53, 60);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.architecture h3 {
+    color: white;
+}
+.architecture h4 {
+    color: white;
+}
+.architecture p {
+    color: white;
+}
+.architecture hr {
+    width: 4%;
+    border: solid .3px white;
+}
