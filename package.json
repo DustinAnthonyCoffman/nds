@@ -3,11 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "browserify public/javascripts/main.js -o bundle.js"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.0.1",
     "aos": "^2.3.4",
+    "async": "^3.2.0",
     "bootstrap": "^4.4.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -18,5 +20,8 @@
     "morgan": "~1.9.1",
     "popper": "^1.0.1",
     "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.1"
   }
 }

@@ -1,0 +1,39 @@
+.services {
+    padding-top: 100px;
+}
+
+.services hr {
+    width: 17%;
+}
+
+.services .col-lg-12 hr {
+    width: 4%;
+}
+
+
+.services ul {
+    list-style: none;
+    border-right: 1px solid rgb(139, 0, 0);
+    margin-left: -80px;
+}
+.services li {
+    font-size: 19px;
+    line-height: 2;
+}
+.services li a {
+    color: rgb(168, 168, 168);
+}
+
+.services li a:hover {
+    text-decoration: none;
+    color: rgb(139, 0, 0);
+}
+
+.services img {
+    width: 90%;
+    padding-top: 70px;
+}
+
+.services img:hover {
+    opacity: .5;
+}

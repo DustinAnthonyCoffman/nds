@@ -9,13 +9,38 @@ hr {
 }
 
 p {
-    font-size: 19px;
+    font-size: 15px;
     line-height: 2;
+    color: rgb(168, 168, 168);
+}
+
+ul {
+    font-size: 15px;
+    line-height: 2;
+    color: rgb(168, 168, 168);
+}
+
+li {
+    font-size: 15px;
+    line-height: 2;
+    color: rgb(168, 168, 168);
+}
+
+li a {
+    color: rgb(168, 168, 168);
+}
+
+li a:hover {
+    text-decoration: none;
+    color: rgb(139, 0, 0);
 }
 
 .jumbotron {
     margin-bottom: 0;
-}
+    background-image: url('/images/banner.svg');
+    background-size: cover;
+    padding-bottom: 244px;
+  }
 .jumbotron h2 {
     font-weight: 700;
     color: rgb(168, 168, 168);
@@ -53,7 +78,6 @@ p {
 
 .dropdown-item:hover {
     text-decoration: none;
-    filter: brightness(200%);
 } 
 
 .nav-tabs .nav-link:hover {
@@ -140,3 +164,6 @@ footer h2 {
     -webkit-animation-name: slideIn;
     animation-name: slideIn;
   }
+
+
+

@@ -1,0 +1,11 @@
+.row:nth-child(4) {
+    padding-top: 100px;
+}
+.row:nth-child(4) hr {
+    width: 4%;
+}
+.row:nth-child(5) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}

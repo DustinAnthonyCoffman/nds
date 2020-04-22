@@ -1,9 +1,8 @@
 function index(req,res) {
-    res.render('about');
+    res.render('services');
 }
 
 
 module.exports = {
-    index
+index
 }
-

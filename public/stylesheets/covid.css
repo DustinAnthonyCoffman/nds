@@ -1,0 +1,86 @@
+.services {
+    padding-top: 100px;
+}
+.services p {
+    font-size: 15px;
+    color: rgb(168, 168, 168);
+}
+.services hr {
+    width: 17%;
+    text-align:left;
+    margin-left:0
+}
+
+.services .col-lg-12 hr {
+    width: 4%;
+}
+
+.services ul {
+    font-size: 15px;
+    line-height: 2;
+    color: rgb(168, 168, 168);
+}
+.services ul:nth-child(1) {
+    list-style: none;
+    border-right: 1px solid rgb(139, 0, 0);
+    margin-left: -80px;
+}
+
+.services li {
+    font-size: 15px;
+    line-height: 2;
+    color: rgb(168, 168, 168);
+}
+.services li a {
+    color: rgb(168, 168, 168);
+}
+
+.services li a:hover {
+    text-decoration: none;
+    color: rgb(139, 0, 0);
+}
+
+.services img {
+    width: 90%;
+    padding-top: 70px;
+}
+
+.services img:hover {
+    opacity: .5;
+}
+
+.standards {
+    padding-top:100px;
+}
+
+.standards p {
+    font-size: 15px;
+    color: rgb(168, 168, 168);
+}
+.standards h4 {
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.standards hr {
+    width: 17%;
+    text-align:left;
+    margin-left:0
+}
+
+.standards img {
+    width: 200px;
+}
+
+.standards .col-lg-5 div {
+    width: 200px;
+    float: right;
+}
+
+.standards img:hover {
+    opacity: .5;
+}
+
+.standards p:nth-child(3) {
+    float: right;
+}
