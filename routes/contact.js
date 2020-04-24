@@ -5,7 +5,7 @@ const contactCtrl = require('../controllers/contact');
 //tickets/ is already part of the path because of its url origin ref="/tickets/new">
 
 router.get('/', contactCtrl.index)
-
+router.post('/', contactCtrl.send)
 
 
 module.exports = router;
