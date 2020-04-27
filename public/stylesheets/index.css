@@ -2,8 +2,11 @@
     background-color: rgb(139, 0, 0);
     height: 170px;
 }
-.quote h2 {
+
+.quote h3 {
+    margin-left: 40px;
     display: inline-block;
+    white-space: nowrap;
     padding-top: 45px;
     color: white;
 }
@@ -20,7 +23,6 @@
     border-radius: 16px;
 }
 
-
 .quote a {
     color: rgb(46, 53, 60);
 }
@@ -36,6 +38,10 @@
 .quote a:hover {
     text-decoration: none;
     color: white;
+}
+
+.quote form {
+    padding-top: 59px;
 }
 
 .indexAbout {
@@ -106,12 +112,26 @@
 .architecture {
     background-image: url('../images/bg-4.png');
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     background-position-y: 200px;
     background-color: rgb(46, 53, 60);
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.architecture .col-lg-12 {
+    padding-bottom: 39px;
+    padding-top: 70px;
+}
+.architecture .col-lg-3 {
+    height: 206px;
+}
+.architecture .col-lg-2 {
+    margin-right: 62px;
+    padding: 0;
+}
+
 .architecture h3 {
     color: white;
 }
@@ -123,5 +143,5 @@
 }
 .architecture hr {
     width: 4%;
-    border: solid .3px white;
+    border: solid .5px white;
 }

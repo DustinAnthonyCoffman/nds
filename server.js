@@ -23,6 +23,9 @@ var aboutRouter = require('./routes/about');
 var helpRouter = require('./routes/help');
 var virusesOrBacteriaRouter = require('./routes/virusesOrBacteria');
 var resourcesRouter = require('./routes/resources');
+var infoRouter = require('./routes/info');
+var responseRouter = require('./routes/response');
+var videoRouter = require('./routes/video');
 
 
 var app = express();
@@ -57,6 +60,9 @@ app.use('/about', aboutRouter);
 app.use('/help', helpRouter);
 app.use('/virusesOrBacteria', virusesOrBacteriaRouter);
 app.use('/resources', resourcesRouter);
+app.use('/info', infoRouter);
+app.use('/response', responseRouter);
+app.use('/video', videoRouter);
 
 
 // catch 404 and forward to error handler
