@@ -6,3 +6,13 @@
 hr {
     width: 14%;
 }
+
+.form-control {
+    height: 50px;
+    width: 80%;
+}
+
+#myform button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

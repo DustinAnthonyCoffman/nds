@@ -26,6 +26,7 @@ var resourcesRouter = require('./routes/resources');
 var infoRouter = require('./routes/info');
 var responseRouter = require('./routes/response');
 var videoRouter = require('./routes/video');
+var globalRouter = require('./routes/global');
 
 
 var app = express();
@@ -63,6 +64,7 @@ app.use('/resources', resourcesRouter);
 app.use('/info', infoRouter);
 app.use('/response', responseRouter);
 app.use('/video', videoRouter);
+app.use('/global', globalRouter);
 
 
 // catch 404 and forward to error handler
