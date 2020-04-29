@@ -37,19 +37,36 @@ li a:hover {
     color: rgb(139, 0, 0);
 }
 
-.jumbotron {
-    margin-bottom: 0;
-    background-image: url('/images/logo.svg');
-    background-repeat: no-repeat;
-    padding-bottom: 244px;
-  }
-.jumbotron h2 {
-    font-weight: 700;
-    color: rgb(168, 168, 168);
+
+
+.jumbo img {
+    width: 500px;
 }
 
-.jumbotron img {
-    width: 38%;
+.jumbo h3 {
+    white-space: nowrap;
+    margin-left: 24px;
+    margin-bottom: 19px;
+}
+
+.jumbo h4 {
+    white-space: nowrap;
+    font-size: 22px;
+}
+
+.jumbo ul {
+    padding-left: 0;
+}
+
+.jumbo li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.jumboInner {
+    margin-top: 100px;
 }
 
 .nav {

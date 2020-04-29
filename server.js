@@ -27,6 +27,10 @@ var infoRouter = require('./routes/info');
 var responseRouter = require('./routes/response');
 var videoRouter = require('./routes/video');
 var globalRouter = require('./routes/global');
+var industriesRouter = require('./routes/industries');
+var residentialRouter = require('./routes/residential');
+var commercialRouter = require('./routes/commercial');
+var institutionalRouter = require('./routes/institutional');
 
 
 var app = express();
@@ -65,6 +69,11 @@ app.use('/info', infoRouter);
 app.use('/response', responseRouter);
 app.use('/video', videoRouter);
 app.use('/global', globalRouter);
+app.use('/industries', industriesRouter);
+app.use('/residential', residentialRouter);
+app.use('/commercial', commercialRouter);
+app.use('/institutional', institutionalRouter);
+
 
 
 // catch 404 and forward to error handler
