@@ -4,7 +4,7 @@
     <div class="col-lg-2">
     </div>
     <div class="col-lg-8 text-center">
-        <iframe width="600" height="450" frameborder="0" style="border:0"
+        <iframe width="100%" height="450" frameborder="0" style="border:0"
         src="https://www.google.com/maps/embed/v1/place?q=place_id:Eh1XZXN0Y2hlc3RlciBBdmUsIFJ5ZSwgTlksIFVTQSIuKiwKFAoSCadvDv3llsKJEaNlW-orzHGeEhQKEgmpz4s_0ZDCiRGQZ14eXOixnA&key=AIzaSyAtJuAXocOzZcIyBPPzzZPqg4QAoz6u0BU" allowfullscreen></iframe>
     </div>
     <div class="col-lg-2">
@@ -15,8 +15,8 @@
     <div class="form-row">
         <div class="form-group col-md-2">
         </div>
-        <div class="form-group col-md-5">
-                <h3>Get In Touch</h3>
+        <div class="form-group col-md-6">
+            <h3>Get In Touch</h3>
             <label for="inputEmail4">Name</label>
             <input type="text" name="name" class="form-control" id="inputEmail4" placeholder="name">
 
@@ -24,53 +24,98 @@
             <input type="text" name="email" class="form-control" id="inputAddress" placeholder="email">
 
             <label for="inputAddress">Phone</label>
-            <input type="text" name="phone" class="form-control" id="inputAddress" placeholder="phone">
+            <input type="text" name="phone" class="form-control phone" id="inputAddress" placeholder="phone">
 
             <label for="inputAddress">Extension</label>
-            <input type="text" name="extension"class="form-control" id="inputAddress" placeholder="extension">
+            <input type="text" name="extension"class="form-control phone" id="inputAddress" placeholder="extension">
 
             <label for="inputAddress">Address</label>
             <input type="text" name="address" class="form-control" id="inputAddress" placeholder="address">
 
-            <label for="inputCity">City</label>
-            <input type="text" name="city" class="form-control" id="inputCity" placeholder="city">
+            <label for="inputCity" class="horizontal">City</label>
+            <input type="text" name="city" class="form-control horizontal" id="inputCity" placeholder="city">
 
 
-            <label for="inputState">State</label>
-            <select id="inputState" class="form-control">
+            <label for="inputState" class="horizontal">State</label>
+            <select id="inputState" class="form-control horizontal">
                 <option selected>Choose...</option>
-                <option>Texas</option>
-                <option>New York</option>
-                <option>Texas</option>
-                <option>Texas</option>
-                <option>Texas</option>
-                <option>Texas</option>
-                <option>Texas</option>
-                <option>Texas</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
             </select>
 
-            <label for="inputZip">Zip</label>
-            <input type="text" name="zip" class="form-control" id="inputZip" placeholder="zip">
-
+            <label for="inputZip" class="horizontal">Zip</label>
+            <input type="text" name="zip" class="form-control horizontal" id="inputZip" placeholder="zip">
+            
+            <label for="inputEmail4">Subject</label>
+            <input type="text" name="subject" class="form-control" id="inputEmail4" placeholder="subject">
+            
+            <label for="inputEmail4">Message</label>
+            <textarea type="text" name="message" class="form-control" id="inputEmail4" placeholder="message"></textarea>
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
-        <div class="form-group col-md-1">
-        </div>
-        <div class="form-group col-md-2">
+        <div class="form-group col-md-3 sideContact">
             <h3>Other ways to contact us</h3>
-            <hr>
             <h4>Please call us 1-833-6591</h4>
             <hr>
             <p><b>Address</b></p>
-            <p>800 Westchester Avenue</p>
-            <p>Suite 641</p>
-            <p>North Rye Brook, NY 10573</p>
+            <p>800 Westchester Avenue <br>
+            Suite 641<br>
+            North Rye Brook, NY 10573</p>
             <p><b>Email Contact</b></p>
             <p>info@nationaldisinfection.com</p>
             <p><b>Opening Hours:</b></p>
             <p>24/7</p>
         </div>
-        <div class="form-group col-md-2">
+        <div class="form-group col-md-1">
         </div>
     </div>
   </form>
