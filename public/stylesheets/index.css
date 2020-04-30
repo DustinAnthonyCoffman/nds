@@ -46,7 +46,7 @@
 
 .indexDesc p {
     text-indent: 57px;
-    padding-top: 50px;
+    padding-top: 23px;
 }
 
 .indexIndustries {
@@ -57,9 +57,11 @@
 }
 
 .indexIndustries img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 450px;
+    height: 300px;
     display: block; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .residential {
@@ -72,8 +74,12 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.indexIndustries .col-lg-4 ul {
+    margin-left: 92px;
+}
 .indexIndustries li {
-   list-style: none;
+    font-weight: 200;
 }
 
 .indexAbout {

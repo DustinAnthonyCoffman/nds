@@ -45,3 +45,21 @@ padding-bottom: 20px;
 .sideContact p:nth-child(even) {
     color: rgb(128, 23, 14);
 }
+
+.sideContact ul {
+    padding-left: 0;
+}
+
+
+.sideContact a   {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 22px;
+    color: rgb(46, 53, 60);
+}
+
+.sideContact a:hover   {
+    text-decoration: none;
+    color: rgb(139, 0, 0);
+}

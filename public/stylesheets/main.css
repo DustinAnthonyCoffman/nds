@@ -8,12 +8,12 @@ body {
 
 
 
-.container-fluid {
+/* .container-fluid {
     padding-right: 0;
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
 
 hr {
@@ -85,6 +85,15 @@ li a:hover {
 
 .jumboInner {
     margin-top: 100px;
+}
+.jumboInner h4 {
+    margin-left: 5px;
+}
+.jumboInner img {
+    width: 384px;
+}
+.jumboInner ul {
+    margin-left: 7px;
 }
 
 .nav {
