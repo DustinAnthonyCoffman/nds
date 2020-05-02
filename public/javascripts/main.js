@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    AOS.init();
     var myform = $("form#myform");
     myform.submit(function(event){
         event.preventDefault();
@@ -19,7 +20,6 @@ $(document).ready(function(){
       return false;
     });
 
-    AOS.init();
     $(".dropdown, .btn-group").hover(function(){
         var dropdownMenu = $(this).children(".dropdown-menu");
         if(dropdownMenu.is(":visible")){
