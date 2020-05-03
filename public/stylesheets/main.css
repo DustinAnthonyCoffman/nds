@@ -112,6 +112,10 @@ li a:hover {
 
 .nav-item {
     padding-top: 8px;
+}
+
+.nav-item:hover {
+    border: none;
 
 }
 .nav a {
@@ -169,6 +173,15 @@ li a:hover {
 }
 
 .footer a {
+    color: rgb(118, 119, 122);
+}
+
+.footer a:hover {
+    color: rgb(139, 0, 0);
+    text-decoration: none;
+}
+
+.footer ul a {
     color: white;
     font-size: 19px;
     list-style: none;

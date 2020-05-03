@@ -23,7 +23,17 @@
     border-radius: 16px;
 }
 
+
+.quote h3 a {
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
 .quote a {
+    color: rgb(46, 53, 60)
+}
+
+.quote h3 a:hover {
     color: rgb(46, 53, 60);
 }
 

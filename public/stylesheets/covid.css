@@ -1,3 +1,12 @@
+a {
+    color: rgb(46, 53, 60)
+}
+
+a:hover {
+    color: rgb(139, 0, 0);
+    text-decoration: none;
+}
+
 .industries {
     padding-top: 150px;
 }
