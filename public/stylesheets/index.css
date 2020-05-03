@@ -146,14 +146,17 @@
 }
 
 .architecture {
-    background-image: url('../images/bg-4.png');
+    background-image: url('../images/cleaning.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position-y: 200px;
-    background-color: rgb(46, 53, 60);
+    /* background-color: rgb(46, 53, 60); */
+    filter:grayscale(100%);
+    background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
+
 }
 
 .architecture .col-lg-12 {
@@ -169,15 +172,15 @@
 }
 
 .architecture h3 {
-    color: white;
+    color: rgb(46, 53, 60);
 }
 .architecture h4 {
-    color: white;
+    color: rgb(46, 53, 60);
 }
 .architecture p {
-    color: white;
+    color: rgb(46, 53, 60);
 }
 .architecture hr {
     width: 4%;
-    border: solid .5px white;
+    border: solid .5px rgb(46, 53, 60);
 }
