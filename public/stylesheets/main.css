@@ -247,4 +247,53 @@ color: rgb(139, 0, 0);
   }
 
 
+  /* mobile */
+
+  @media only screen and (max-device-width: 375px) {
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+  }
+
+  @media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 98px;
+    }
+    .jumbo h4 {
+        margin-left: 211px;
+    }
+    .jumbo img {
+        padding-right: 0;
+        margin-left: 167px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 161px;
+    }
+    
+    
+    
+    .navbar-nav {
+        margin-left: 118px;
+    }
+  }
 

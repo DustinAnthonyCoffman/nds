@@ -204,13 +204,15 @@
     background-size: cover;
     background-attachment: fixed;
     background-position-y: 200px;
-    /* background-color: rgb(46, 53, 60); */
+    background-position: center;
     filter:grayscale(100%);
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
-
+    overflow: scroll;
 }
+
+  
 
 .architecture .col-lg-12 {
     padding-bottom: 39px;
@@ -237,3 +239,101 @@
     width: 4%;
     border: solid .5px rgb(46, 53, 60);
 }
+
+@media only screen and (max-device-width: 375px) {
+        .quote h3 {
+            margin-left: 50px;
+            display: inline-block;
+            white-space: normal;
+            padding-top: 45px;
+            color: white;
+            text-indent: 14px;
+        }
+
+        .indexDesc p {
+            text-indent: 0;
+            padding-top: 23px;
+        }
+
+        .indexIndustries ul {
+            font-size: 20px;
+            font-weight: 700;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 28px;
+        }
+
+        .indexIndustries .col-lg-4 ul {
+            margin-left: 0;
+        }
+
+        .indexIndustries img {
+            width: 400px;
+            height: 250px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-left: -41px;
+        }
+
+        .architecture {
+            background-position-y: 14px;
+        }
+        .architecture .col-lg-3 {
+            height: 0px;
+        }
+        .architecture h4 {
+            text-align: center;
+            margin-left: 75px;
+            padding-bottom: 20px;
+        }
+
+        .architecture p {
+            text-align: center;
+            margin-left: 83px;
+            padding-bottom: 32px;
+        }
+  }
+
+  @media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    
+    .quote h3 {
+        margin-left: 139px;
+    }
+    
+    .quote form {
+        padding-top: 4px;
+    }
+
+    .indexIndustries .col-lg-3 ul {
+        margin-left: 261px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 261px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+
+    .architecture h4 {
+        text-align: center;
+        margin-left: 64px;
+        padding-bottom: 30px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+  }
