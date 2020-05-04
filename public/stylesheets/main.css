@@ -135,62 +135,10 @@ li a:hover {
     background-color: rgb(46, 53, 60);
 }
 
-
-/* .nav-tabs {
-    border-bottom: none;
+.navbar-nav {
+    margin-left: 500px;
 }
 
-.dropdown-menu {
-    background-color: rgb(46, 53, 60);
-}   
-
-.nav-item {
-    padding-top: 8px;
-}
-
-.nav-item:hover {
-    border: none;
-
-}
-.nav a {
-    color: white;
-}
-
-.dropdown-item {
-    line-height: 3;
-    padding: 5px;
-    white-space: nowrap;
-}
-
-.dropdown-item:hover {
-    text-decoration: none;
-} 
-
-.nav-tabs .nav-link:hover {
-    background-color: rgb(46, 53, 60);
-    border: 1px solid rgb(46, 53, 60);
-}
-
-.nav .open>a:hover {
-    background-color: rgb(46, 53, 60);
-    border-color: rgb(46, 53, 60);
-    transition: 1s;
-}
-
-.nav li:hover a {
-    border: 1px solid rgba(46, 53, 60, 0);
-    background: none;
-}
-
-.nav-tabs > li {
-    float:none;
-    display:inline-block;
-    zoom:1;
-}
-
-.nav-tabs {
-    text-align:center;
-}  */
 
 .footer {
     background-color: rgb(46, 53, 60);
