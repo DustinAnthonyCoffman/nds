@@ -96,13 +96,47 @@ li a:hover {
     margin-left: 7px;
 }
 
-.nav {
-    background-color: rgb(46, 53, 60);
-    height: auto;
-    width: auto;
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
 }
 
-.nav-tabs {
+.navbar {
+    border-radius: 0px;
+}
+
+ .navbar-inverse {
+    background-color: rgb(46, 53, 60);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: rgb(46, 53, 60);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: rgb(139, 0, 0);
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: rgb(139, 0, 0);
+    background-color: rgb(46, 53, 60);
+}
+
+.dropdown-menu {
+    background-color: rgb(46, 53, 60);
+}
+.dropdown-menu li a {
+    color: #9d9d9d;
+}
+.dropdown-menu li:hover a {
+    color: rgb(139, 0, 0);
+    background-color: rgb(46, 53, 60);
+}
+
+
+/* .nav-tabs {
     border-bottom: none;
 }
 
@@ -156,7 +190,7 @@ li a:hover {
 
 .nav-tabs {
     text-align:center;
-}
+}  */
 
 .footer {
     background-color: rgb(46, 53, 60);
