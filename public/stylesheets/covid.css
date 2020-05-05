@@ -153,6 +153,41 @@ a:hover {
     width: 100%;
 }
 
+.indexIndustries form {
+    text-align: center;
+    margin-top: 34px;
+}
+
+.indexIndustries button {
+    background-color: rgb(139, 0, 0);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: solid 1px rgb(139, 0, 0);
+}
+
+.indexIndustries button a {
+    color: white;
+    font-size: 15px;
+}
+
+.indexIndustries button:hover {
+    background-color: white;
+    color: rgb(139, 0, 0);
+    border: solid 1px rgb(139, 0, 0);
+
+}
+.indexIndustries button:hover a {
+    color: rgb(139, 0, 0);
+    text-decoration: none;
+}
+
 @media only screen and (max-device-width: 375px) {
     .services li {
         margin-left: 50px;

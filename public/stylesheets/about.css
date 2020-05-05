@@ -9,3 +9,99 @@
     padding-bottom: 100px;
 
 }
+
+.indexIndustries form {
+    text-align: center;
+    margin-top: 34px;
+}
+
+.indexIndustries {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.indexIndustries img {
+    width: 450px;
+    height: 300px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.residential {
+    height: 200px;
+}
+
+.indexIndustries ul {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.indexIndustries .col-lg-4 ul {
+    margin-left: 92px;
+}
+.indexIndustries li {
+    font-weight: 200;
+}
+
+.indexIndustries button {
+    background-color: rgb(139, 0, 0);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: solid 1px rgb(139, 0, 0);
+}
+
+.indexIndustries button a {
+    color: white;
+    font-size: 15px;
+}
+
+.indexIndustries button:hover {
+    background-color: white;
+    color: rgb(139, 0, 0);
+    border: solid 1px rgb(139, 0, 0);
+
+}
+.indexIndustries button:hover a {
+    color: rgb(139, 0, 0);
+    text-decoration: none;
+}
+
+
+@media only screen and (max-device-width: 375px) {
+    .indexIndustries img {
+        width: 322px;
+        height: 232px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0px;
+    }
+
+
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 140px;
+    }
+    .indexIndustries .col-lg-3 ul {
+        margin-left: 140px;
+    }
+
+
+}

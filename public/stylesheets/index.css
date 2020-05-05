@@ -92,7 +92,10 @@
     padding-bottom: 50px;
 }
 
-
+.indexIndustries form {
+    text-align: center;
+    margin-top: 34px;
+}
 
 .indexIndustries button {
     background-color: rgb(139, 0, 0);
@@ -110,7 +113,7 @@
 
 .indexIndustries button a {
     color: white;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .indexIndustries button:hover {
@@ -205,7 +208,7 @@
     background-attachment: fixed;
     background-position-y: 200px;
     background-position: center;
-    filter:grayscale(100%);
+    filter:grayscale(80%);
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -228,12 +231,15 @@
 
 .architecture h3 {
     color: rgb(46, 53, 60);
+    font-weight: 700;
 }
 .architecture h4 {
     color: rgb(46, 53, 60);
+    font-weight: 700;
 }
 .architecture p {
     color: rgb(46, 53, 60);
+    font-weight: 700;
 }
 .architecture hr {
     width: 4%;
