@@ -293,10 +293,431 @@ color: rgb(139, 0, 0);
         margin-left: 161px;
     }
     
-    
-    
     .navbar-nav {
         margin-left: 118px;
     }
   }
 
+
+
+  /* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+    .jumbo h3 {
+        white-space: normal;
+        margin-left: 12px;
+    }
+    .jumbo h4 {
+        margin-left: 13px;
+    }
+    .jumbo img {
+        padding-right: 44px;
+    }
+    .jumboInner {
+        margin-top: 0;
+    }
+    .jumboInner img {
+        margin-left: 5px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+}

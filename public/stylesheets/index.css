@@ -343,3 +343,923 @@
     }
 
   }
+
+
+
+  /* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+    .quote h3 {
+        margin-left: 50px;
+        display: inline-block;
+        white-space: normal;
+        padding-top: 45px;
+        color: white;
+        text-indent: 14px;
+    }
+
+    .indexDesc p {
+        text-indent: 0;
+        padding-top: 23px;
+    }
+
+    .indexIndustries ul {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 28px;
+    }
+
+    .indexIndustries .col-lg-4 ul {
+        margin-left: 0;
+    }
+
+    .indexIndustries img {
+        width: 400px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: -41px;
+    }
+
+    .architecture {
+        background-position-y: 14px;
+    }
+    .architecture .col-lg-3 {
+        height: 0px;
+    }
+    .architecture h4 {
+        text-align: center;
+        margin-left: 75px;
+        padding-bottom: 20px;
+    }
+
+    .architecture p {
+        text-align: center;
+        margin-left: 83px;
+        padding-bottom: 32px;
+    }
+
+}
