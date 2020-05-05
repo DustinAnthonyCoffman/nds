@@ -58,3 +58,22 @@
 }
 
 
+@media only screen and (max-device-width: 375px) {
+    .services ul:nth-child(1) {
+        border-right: none;
+        margin-left: 30px;
+    }
+
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    .services ul:nth-child(1) {
+        border-right: none;
+        margin-left: -11px;
+    }
+
+}
