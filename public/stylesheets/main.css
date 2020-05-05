@@ -156,6 +156,7 @@ li a:hover {
 
 .footer a {
     color: rgb(118, 119, 122);
+    text-decoration: none;
 }
 
 .footer a:hover {
