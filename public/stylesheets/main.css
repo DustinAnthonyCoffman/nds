@@ -266,6 +266,9 @@ color: rgb(139, 0, 0);
     .jumboInner img {
         margin-left: 5px;
     }
+    .navbar-nav {
+        margin-left: 0px;
+    }
   }
 
   @media only screen
